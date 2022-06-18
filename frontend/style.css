@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Mulish;
+    src: url('Mulish-Regular.ttf'); 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish' sans-serif;
+    background-color: deeppink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    overflow: hidden;
+    border-radius: 10px;
+    width: 600px;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: dimgray
+}
+
+.header {
+    padding: 7px 15px;
+    padding-left: 100px;
+}
+
+.form {
+    margin-top: -100px;
+    padding: 30px 40px;
+    float: right;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.form-style {
+    position: relative;
+    margin-bottom: 5px;
+    padding-bottom: -15px;
+    padding-top: -10px;
+    padding-right: 20px;
+}
+
+.form-style label {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-bottom: 12px;
+    color: darkslateblue;
+}
+
+.form-style input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: inherit; 
+}
+
+.form-style.good input {
+    border-color: lime;
+}
+
+.form-style.error input {
+    border-color: red;
+}
+
+.form-style.good #check {
+    color: lime;
+    visibility: visible;
+}
+
+.form-style.error #hey {
+    color: red;
+    visibility: visible;
+}
+
+.form-style.error small {
+    color: red;
+    visibility: visible;
+}
+
+.form-style i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.form-style small {
+    visibility: hidden;
+}
+
+#hey {
+    position: absolute;
+    top: 20px;
+    margin-left: 160px;
+    visibility: hidden;
+}
+
+#check {
+    position: absolute;
+    top: 20px;
+    margin-left: 160px;
+    visibility: hidden;
+}
+
+.form button {
+    font-size: 15px;
+    color: mediumvioletred;
+    background: none;
+    border: none;
+    font-weight: 600;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
+#name {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid darkslategray;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+#email {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid darkslategray;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+#number {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid darkslategray;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+#message {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid darkslategray;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.contact {
+    color: mediumvioletred;
+}
+
+.us {
+    margin-top: -20px;
+    color: mediumvioletred;
+}
+
+hr {
+    width: 5%;
+    color: mediumvioletred;
+    margin-left: 2px;
+    margin-top: -20px;
+    border: 2px solid;
+}
